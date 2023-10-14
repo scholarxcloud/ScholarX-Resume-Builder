@@ -66,8 +66,7 @@ const RightSidebar = () => {
         return <ActionsTab data={data} theme={theme} dispatch={dispatch} />;
       case tabs[4].key:
         return <SettingsTab settings={settings} onChange={onChange} />;
-      case tabs[5].key:
-        return <AboutTab />;
+    
       default:
         return null;
     }
