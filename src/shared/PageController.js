@@ -53,7 +53,7 @@ const PageController = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="material-icons">medication</i>
+          <i className="material-icons">help_outlined</i>
         </a>
       </div>
     </div>
