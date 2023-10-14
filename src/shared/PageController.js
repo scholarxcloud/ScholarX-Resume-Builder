@@ -48,11 +48,11 @@ const PageController = () => {
 
         <a
           className="p-3 hover:bg-gray-200 cursor-pointer flex"
-          href="https://docs.rxresu.me/"
+          href="https://www.scholarx.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="material-icons">help_outline</i>
+          <i className="material-icons">Medication</i>
         </a>
       </div>
     </div>
