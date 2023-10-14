@@ -7,7 +7,7 @@ import TemplatesTab from './tabs/Templates';
 import ColorsTab from './tabs/Colors';
 import FontsTab from './tabs/Fonts';
 import ActionsTab from './tabs/Actions';
-import AboutTab from './tabs/About';
+
 import SettingsTab from './tabs/Settings';
 
 const RightSidebar = () => {
@@ -38,10 +38,7 @@ const RightSidebar = () => {
       key: 'settings',
       name: t('settings.title'),
     },
-    {
-      key: 'about',
-      name: t('about.title'),
-    },
+   
   ];
   const [currentTab, setCurrentTab] = useState(tabs[0].key);
 
