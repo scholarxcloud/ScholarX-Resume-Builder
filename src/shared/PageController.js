@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 
 import PageContext from '../context/PageContext';
+import MedicationIcon from '@mui/icons-material/Medication';
 
 const PageController = () => {
   const pageContext = useContext(PageContext);
